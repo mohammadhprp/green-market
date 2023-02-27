@@ -20,6 +20,8 @@ dependencies:
   flutter_swiper_plus: ^2.0.4
   auto_size_text: ^3.0.0
   flutter_secure_storage: ^8.0.0
+  package_info_plus: ^1.4.2
+  animated_text_kit: ^4.2.2
 
 dev_dependencies:
   flutter_test:
@@ -33,6 +35,7 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/animations/
 
   fonts:
     - family: Inter
