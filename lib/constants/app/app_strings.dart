@@ -43,6 +43,6 @@ class AppStrings {
   static const potType = 'Pot type';
 
   static const skip = 'Skip';
-
+  static const splashQuote = 'Bring nature into your Life';
   const AppStrings._();
 }
