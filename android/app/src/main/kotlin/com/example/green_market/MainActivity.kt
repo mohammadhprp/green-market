@@ -1,4 +1,4 @@
-package com.example.green_market
+package io.github.mohammadhprp.green_market
 
 import io.flutter.embedding.android.FlutterActivity
 
