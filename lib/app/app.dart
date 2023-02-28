@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:green_market/constants/app/app_animations.dart';
+import 'package:green_market/constants/app/app_assets.dart';
 
 import '../constants/app/app_strings.dart';
 import '../constants/router.dart';
@@ -13,7 +13,7 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    precacheImage(const AssetImage(AppAnimation.splash), context);
+    precacheImage(const AssetImage(AppAssets.splash), context);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: AppStrings.appTitle,
