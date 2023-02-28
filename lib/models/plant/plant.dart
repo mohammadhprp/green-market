@@ -1,6 +1,7 @@
 import 'package:green_market/models/image/image.dart';
 
 class Plant {
+  final int id;
   final String name;
   final double price;
   final String type;
@@ -11,6 +12,7 @@ class Plant {
   final List<Image> images;
 
   Plant({
+    required this.id,
     required this.name,
     required this.price,
     required this.type,
