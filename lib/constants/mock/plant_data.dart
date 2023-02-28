@@ -2,8 +2,9 @@ import 'package:green_market/models/image/image.dart';
 import 'package:green_market/models/plant/plant.dart';
 
 class PlantData {
-  List<Plant> list = [
+  static List<Plant> list = [
     Plant(
+      id: 1,
       name: 'Calathea White Fusion',
       price: 23.00,
       type: 'Indoor',
@@ -19,6 +20,7 @@ class PlantData {
       ],
     ),
     Plant(
+      id: 2,
       name: 'Snake Plant',
       price: 15.99,
       type: 'Indoor',
@@ -34,6 +36,7 @@ class PlantData {
       ],
     ),
     Plant(
+      id: 3,
       name: 'Succulent',
       price: 9.99,
       type: 'Indoor',
@@ -49,6 +52,7 @@ class PlantData {
       ],
     ),
     Plant(
+      id: 4,
       name: 'Monstera Deliciosa',
       price: 29.99,
       type: 'Indoor',
@@ -64,6 +68,7 @@ class PlantData {
       ],
     ),
     Plant(
+      id: 5,
       name: 'Rubber Plant',
       price: 21.99,
       type: 'Indoor',
@@ -79,6 +84,7 @@ class PlantData {
       ],
     ),
     Plant(
+      id: 6,
       name: 'Fiddle Leaf Fig',
       price: 34.99,
       type: 'Indoor',

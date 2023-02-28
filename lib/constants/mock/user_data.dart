@@ -2,7 +2,7 @@ import '../../models/user/user.dart';
 import '../enum/gender.dart';
 
 class UserData {
-  List<User> list = [
+  static List<User> list = [
     User(name: 'Martin', age: 20, gender: Gender.male),
     User(name: 'Sophie', age: 25, gender: Gender.female),
     User(name: 'John', age: 30, gender: Gender.male),
