@@ -32,7 +32,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
 
   void _push(Widget screen) {
     Future.delayed(
-      const Duration(seconds: DurationConstant.d2),
+      const Duration(seconds: DurationConstant.d3),
       () {
         Navigator.pushReplacement(
           context,

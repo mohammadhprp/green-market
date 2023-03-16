@@ -21,7 +21,7 @@ class SplashAnimationText extends StatelessWidget {
             animatedTexts: [
               TypewriterAnimatedText(
                 AppStrings.splashQuote,
-                speed: const Duration(milliseconds: DurationConstant.d60),
+                speed: const Duration(milliseconds: DurationConstant.d100),
                 textStyle: Theme.of(context).textTheme.displaySmall?.copyWith(
                       color: AppColors.white100,
                     ),
