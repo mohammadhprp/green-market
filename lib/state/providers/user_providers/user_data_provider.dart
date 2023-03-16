@@ -21,3 +21,9 @@ final userFirstLaunchProvider = Provider((ref) {
 
   provider.userFirstLaunch();
 });
+
+final userInfoProvider = Provider<User>((_) {
+  var rng = Random();
+  final user = UserData.list[rng.nextInt(UserData.list.length - 1)];
+  return user;
+});
