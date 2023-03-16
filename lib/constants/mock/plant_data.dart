@@ -1,5 +1,5 @@
-import 'package:green_market/models/image/image.dart';
-import 'package:green_market/models/plant/plant.dart';
+import '../../models/image/image.dart';
+import '../../models/plant/plant.dart';
 
 class PlantData {
   static List<Plant> list = [

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:green_market/screens/home/home_screen.dart';
+import '../../screens/home/home_screen.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../components/buttons/elevated_button_view.dart';

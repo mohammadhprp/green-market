@@ -1,4 +1,4 @@
-import 'package:green_market/constants/enum/image_type.dart';
+import '../enum/image_type.dart';
 
 extension ImageTypeExtension on String {
   ImageType get imageType {

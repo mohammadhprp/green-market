@@ -1,4 +1,4 @@
-import 'package:green_market/models/image/image.dart';
+import '../image/image.dart';
 
 class Plant {
   final int id;

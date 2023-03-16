@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:green_market/state/providers/user_providers/user_data_provider.dart';
+import '../../state/providers/user_providers/user_data_provider.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../components/buttons/text_button_view.dart';

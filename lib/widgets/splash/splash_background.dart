@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:green_market/constants/app/app_assets.dart';
-import 'package:green_market/constants/extensions/media_query_extension.dart';
+import '../../constants/app/app_assets.dart';
+import '../../constants/extensions/media_query_extension.dart';
 
 import '../../components/images/image_view.dart';
 

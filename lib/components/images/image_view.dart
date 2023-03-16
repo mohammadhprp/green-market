@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:green_market/constants/extensions/image_extension.dart';
+import '../../constants/extensions/image_extension.dart';
 
 import '../../constants/enum/image_type.dart';
 

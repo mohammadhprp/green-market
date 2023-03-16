@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:green_market/helpers/app_storage.dart';
+import '../../../helpers/app_storage.dart';
 
 class UserDataNotifier extends ChangeNotifier {
   final _storage = AppStorage();

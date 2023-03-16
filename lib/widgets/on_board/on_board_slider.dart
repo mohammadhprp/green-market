@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_swiper_plus/flutter_swiper_plus.dart';
-import 'package:green_market/constants/extensions/media_query_extension.dart';
-import 'package:green_market/constants/mock/on_board_data.dart';
-import 'package:green_market/constants/themes/values_manager.dart';
+import '../../constants/extensions/media_query_extension.dart';
+import '../../constants/mock/on_board_data.dart';
+import '../../constants/themes/values_manager.dart';
 
 import '../../components/carousel_sliders/carousel_slider_indicator_view.dart';
 import 'on_board_slider_item.dart';

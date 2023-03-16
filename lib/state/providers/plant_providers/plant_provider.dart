@@ -1,4 +1,4 @@
-import 'package:green_market/models/plant/plant.dart';
+import '../../../models/plant/plant.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../notifiers/plant_notifiers/plant_notifier.dart';

@@ -1,5 +1,10 @@
-import 'package:green_market/state/notifiers/user_notifiers/user_data_notifier.dart';
+import 'dart:math';
+
+import '../../../constants/mock/user_data.dart';
+import '../../notifiers/user_notifiers/user_data_notifier.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+
+import '../../../models/user/user.dart';
 
 final userDataProvider = ChangeNotifierProvider<UserDataNotifier>(
   (_) => UserDataNotifier(),

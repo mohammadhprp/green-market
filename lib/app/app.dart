@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:green_market/constants/app/app_assets.dart';
 
+import '../constants/app/app_assets.dart';
 import '../constants/app/app_strings.dart';
 import '../constants/router.dart';
 import '../constants/themes/theme_data.dart';

@@ -1,4 +1,4 @@
-import 'package:green_market/constants/enum/gender.dart';
+import '../../constants/enum/gender.dart';
 
 class User {
   final String name;

@@ -1,8 +1,8 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:green_market/constants/mock/plant_data.dart';
-import 'package:green_market/constants/themes/values_manager.dart';
-import 'package:green_market/models/plant/plant.dart';
+import '../../../constants/mock/plant_data.dart';
+import '../../../constants/themes/values_manager.dart';
+import '../../../models/plant/plant.dart';
 
 class PlantNotifier extends ChangeNotifier {
   /// fetch plants with 1 second delayed

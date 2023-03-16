@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:green_market/widgets/on_board/start_button.dart';
+import '../../widgets/on_board/start_button.dart';
 
 import '../../widgets/on_board/on_board_background.dart';
 import '../../widgets/on_board/on_board_slider.dart';

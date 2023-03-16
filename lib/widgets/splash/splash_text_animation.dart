@@ -1,7 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:green_market/constants/app/app_strings.dart';
-import 'package:green_market/constants/themes/app_colors.dart';
+import '../../constants/app/app_strings.dart';
+import '../../constants/themes/app_colors.dart';
 
 import '../../components/app_version/app_version_view.dart';
 import '../../constants/themes/values_manager.dart';
