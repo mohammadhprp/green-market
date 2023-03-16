@@ -12,6 +12,7 @@ mixin themes implements ThemeData {
 
         appBarTheme: const AppBarTheme(
           scrolledUnderElevation: 0,
+          color: Colors.transparent,
         ),
 
         // main colors of the app]
@@ -21,7 +22,7 @@ mixin themes implements ThemeData {
         disabledColor: AppColors.grey100,
         brightness: Brightness.light,
 
-        scaffoldBackgroundColor: AppColors.white100,
+        scaffoldBackgroundColor: AppColors.background,
 
         // card view theme
         cardTheme: const CardTheme(

@@ -57,12 +57,13 @@ class AppColors {
   static Color error8 = errorMain.withOpacity(0.8);
 
   static const grey100 = Color(0xFFF4F4F4);
+  static const grey150 = Color(0xFFE7E7E7);
   static const grey200 = Color(0xFFD8D8D8);
   static const grey300 = Color(0xFFBCBCBC);
   static const grey400 = Color(0xFFA0A0A0);
   static const grey500 = Color(0xFF8C8C8C);
-  static const grey550 = Color(0xFFE7E7E7);
-  static const grey600 = Color(0xFF787878);
+  static const grey600 = Color(0xFF777777);
+  static const grey650 = Color(0xFF787878);
   static const grey700 = Color(0xFF646464);
   static const grey800 = Color(0xFF505050);
   static const grey900 = Color(0xFF3C3C3C);
