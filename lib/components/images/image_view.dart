@@ -1,7 +1,10 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import '../../constants/extensions/image_extension.dart';
 
 import '../../constants/enum/image_type.dart';
+import '../../constants/extensions/image_extension.dart';
+import '../../constants/themes/app_colors.dart';
+import '../../utils/views/loading_view.dart';
 
 class ImageView extends StatelessWidget {
   final String image;
@@ -33,9 +36,14 @@ class ImageView extends StatelessWidget {
           builder: (context) {
             switch (imageType) {
               case ImageType.network:
-                return Image.network(
-                  image,
+                return CachedNetworkImage(
+                  imageUrl: image,
                   fit: fit,
+                  placeholder: (context, url) => const LoadingView(),
+                  errorWidget: (context, url, error) => const Icon(
+                    Icons.error_outline,
+                    color: AppColors.error,
+                  ),
                 );
               case ImageType.asset:
                 return Image.asset(
