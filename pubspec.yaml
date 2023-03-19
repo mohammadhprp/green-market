@@ -23,6 +23,7 @@ dependencies:
   package_info_plus: ^1.4.2
   animated_text_kit: ^4.2.2
   collection: ^1.17.0
+  cached_network_image: ^3.2.3
 
 dev_dependencies:
   flutter_test:
