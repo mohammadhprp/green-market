@@ -6,6 +6,7 @@ import '../../../constants/themes/font_manager.dart';
 import '../../../constants/themes/values_manager.dart';
 import '../../../constants/url.dart';
 import '../../../models/plant/plant.dart';
+import '../../../screens/plant/plant_detail_screen.dart';
 
 class PlantGridListItemView extends StatelessWidget {
   final Plant plant;
@@ -18,7 +19,15 @@ class PlantGridListItemView extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // Go to detail screen
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (context) => PlantDetailScreen(
+              id: plant.id,
+              name: plant.name,
+              price: plant.price,
+            ),
+          ),
+        );
       },
       child: Container(
         decoration: BoxDecoration(
