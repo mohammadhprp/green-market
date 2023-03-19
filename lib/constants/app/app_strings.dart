@@ -35,6 +35,8 @@ class AppStrings {
 
   static const price = 'Price';
 
+  static const indoors = 'Indoors';
+
   static const addToCart = 'Add to Cart';
 
   static const type = 'Type';
